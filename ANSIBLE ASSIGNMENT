@@ -26,3 +26,14 @@
     tags: 'deploy'
 
 
+
+    #CODE FOR UNDEPLOYMENT
+
+    - hosts: apache 
+      become: true 
+      tasks: 
+        - name: uninstall apache2 
+          apt: name=apache2 autoremove=yes state=absent
+
+
+
