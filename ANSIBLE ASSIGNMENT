@@ -1,0 +1,6 @@
+#Deployment of three (3) Virtual Machines
+#Configuring Ansible server on VM 1(MASTER) to deploy a webserver to VM2(TAR1) and VM3(TAR2) on port 8080 that displays the message: “Hello World from SJSU”
+#Include in the Ansible playbook, plays to deploy and un-deploy all the webserver resources
+
+
+
